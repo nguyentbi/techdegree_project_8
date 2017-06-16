@@ -1,0 +1,61 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #e0ffff;
+}
+
+fieldset {
+  border: none;
+  margin-top: 1rem;
+}
+
+legend {
+  display: none;
+}
+
+form p {
+  margin-top: 0;
+}
+
+
+label {
+  color: white;
+}
+
+#hint,
+#full-name,
+#email-address,
+#confirm-email-address,
+#fav-song,
+#fav-album {
+  display: none;
+  color: white;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
